@@ -21,8 +21,7 @@ public class Person {
         this.age = age;
     }
 
-    @Override
-    public String toString(){
+      public String toString(){
         return String.format("Фамилия: %s \nИмя: %s\nОтчество: %s\nДолжность: %s\nEmail: %s\nНомер телефона: %s\nЗарплата: %d\nВозраст: %d \n \n",
                 surname, name, patronymic, position, email, phoneNumber, salary, age);}
 
